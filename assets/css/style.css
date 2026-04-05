@@ -95,11 +95,14 @@ h2 {
 }
 
 /* ---- Section B ---- */
+#section-b {
+    padding: 30px;
+}
+
 .cards {
     display: flex;
     gap: 20px;
     justify-content: center;
-    margin: 30px;
 }
 
 .card {
@@ -131,13 +134,39 @@ h2 {
     margin-bottom: 30px;
 } 
 
+/* ---- Section C ---- */
+#section-c {
+    background-color: #fff;
+    color: #333;
+    padding: 60px 30px;
+ }
+
+#section-c .container {
+    text-align: center;
+    max-width: 900px;
+    width: 100%;
+    padding: 10px 20px;
+}
+
+#section-c h2 {
+    font-size: 26px;
+    margin: 0 0 30px 0;
+}
+
+#section-c p {
+    font-size: 18px;
+    margin: 0;
+}
+
 /* ---- Media ---- */
 
 @media (max-width: 700px) {
+    /* ---- Section A ---- */
     .text-container {
         column-count: 1;
     }
-    
+
+    /* ---- Section B ---- */
     .cards {
         display: flex;
         gap: 30px;
@@ -152,5 +181,7 @@ h2 {
     .card img {
         height: 550px;
     }
+
+    /* ---- Section D ---- */
 }
 
