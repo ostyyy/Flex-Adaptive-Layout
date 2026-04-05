@@ -158,6 +158,38 @@ h2 {
     margin: 0;
 }
 
+/* ---- Section D ---- */
+#section-d {
+    display: flex;
+    text-align: center;
+}
+
+.info-box-b {
+    background: #2690d4;
+    color: #fff;
+    padding: 35px;
+    width: 50%; 
+}
+
+.info-box-g {
+    background-color: #424242;
+    color: #fff;
+    padding: 35px;
+    width: 50%; 
+}
+
+.info-box-b > h2, 
+.info-box-g > h2 {
+    font-size: 26px;
+    margin: 30px 0;
+}
+
+.info-box-b > p, 
+.info-box-g > p {
+    font-size: 18px;
+    margin: 30px 0;
+}
+
 /* ---- Media ---- */
 
 @media (max-width: 700px) {
@@ -183,5 +215,14 @@ h2 {
     }
 
     /* ---- Section D ---- */
+    #section-d {
+        flex-direction: column;
+    }
+    
+    .info-box-b, 
+    .info-box-g {
+        width: 100%;
+    }   
+
 }
 
