@@ -190,8 +190,24 @@ h2 {
     margin: 30px 0;
 }
 
-/* ---- Media ---- */
+/* ---- Footer ---- */
+footer {
+    display: flex;
+    text-align: center;
+    padding: 40px 0;
+}
 
+footer > div {
+    width: 50%;
+    font-size: 18px;
+}
+
+footer a {
+    color: #25baff;
+    text-decoration: none;
+}
+
+/* ---- Media ---- */
 @media (max-width: 700px) {
     /* ---- Section A ---- */
     .text-container {
@@ -224,5 +240,13 @@ h2 {
         width: 100%;
     }   
 
+    /* ---- Footer ---- */
+    footer {
+        flex-direction: column;
+    }
+
+    footer > div {
+        width: 100%;
+    }
 }
 
